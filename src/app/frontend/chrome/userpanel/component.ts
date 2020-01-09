@@ -54,4 +54,8 @@ export class UserPanelComponent implements OnInit {
   logout(): void {
     this.authService_.logout();
   }
+
+  logoutCustom(): void {
+    this.authService_.logoutCustom();
+  }
 }
