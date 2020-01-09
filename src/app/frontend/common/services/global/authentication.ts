@@ -99,6 +99,11 @@ export class AuthService {
     this.router_.navigate(['login']);
   }
 
+  logoutCustom(): void {
+    this.cookies_.deleteAll();
+    this.router_.navigate(['/']);
+  }
+
   /**
    * Sends a token refresh request to the backend. In case user is not logged in
    * with token nothing will happen.
