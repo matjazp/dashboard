@@ -2896,9 +2896,9 @@
           <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7003098da97db80a0761fe9fdadb2f0349eb462c" datatype="html">
-        <source>Logged in with auth header</source>
-        <target>Connecté avec une entête auth</target>
+      <trans-unit id="8533a6ffcce89f442ba719bc3e1a2dbee153d1f2" datatype="html">
+        <source>Logged in with auth header (patched)</source>
+        <target state="new">Logged in with auth header (patched)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">../src/app/frontend/chrome/userpanel/template.html</context>
           <context context-type="linenumber">22</context>
@@ -2936,6 +2936,16 @@
         <context-group purpose="location">
           <context context-type="sourcefile">../src/app/frontend/chrome/userpanel/template.html</context>
           <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cbba5350a5c742c577d3972de9fba72b98c647da" datatype="html">
+        <source>Logout
+  </source>
+        <target state="new">Logout
+  </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../src/app/frontend/chrome/userpanel/template.html</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8d93137e6678a0a40da783d0a5bc06272d3317c5" datatype="html">

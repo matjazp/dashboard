@@ -19,7 +19,7 @@ limitations under the License.
     <ng-container *ngIf="isLoginStatusInitialized">
       <ng-container [ngSwitch]="true">
         <ng-container *ngSwitchCase="loginStatus.headerPresent && !loginStatus.impersonationPresent"
-                      i18n>Logged in with auth header</ng-container>
+                      i18n>Logged in with auth header (patched)</ng-container>
         <ng-container *ngSwitchCase="loginStatus.tokenPresent"
                       i18n>Logged in with token</ng-container>
         <ng-container *ngSwitchCase="loginStatus.headerPresent && loginStatus.impersonationPresent">{{loginStatus.impersonatedUser}}</ng-container>
@@ -39,6 +39,10 @@ limitations under the License.
           *ngIf="isLoggedIn()"
           (click)="logout()"
           i18n>Sign out
+  </button>
+  <button mat-menu-item
+          (click)="logout()"
+          i18n>Logout
   </button>
 </mat-menu>
 
