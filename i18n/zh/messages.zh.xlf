@@ -2678,9 +2678,9 @@
           <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8533a6ffcce89f442ba719bc3e1a2dbee153d1f2" datatype="html">
-        <source>Logged in with auth header (patched)</source>
-        <target state="new">Logged in with auth header (patched)</target>
+      <trans-unit id="dee7e06ede9e7d95e56109d9649dee56552b3e28" datatype="html">
+        <source>Logged in with auth header (patched) <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>LO<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/></source>
+        <target state="new">Logged in with auth header (patched) <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>LO<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">../src/app/frontend/chrome/userpanel/template.html</context>
           <context context-type="linenumber">22</context>
