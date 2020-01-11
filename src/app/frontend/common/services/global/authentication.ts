@@ -101,7 +101,7 @@ export class AuthService {
 
   logoutCustom(): void {
     this.cookies_.deleteAll();
-    this.router_.navigateByUrl('https://auth.p-poc.k.garaza.io/oauth2/sign_out');
+    this.router_.navigateByUrl('https://auth.ia.k.garaza.io/oauth2/sign_out');
   }
 
   /**
