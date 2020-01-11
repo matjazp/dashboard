@@ -101,7 +101,9 @@ export class AuthService {
 
   logoutCustom(): void {
     this.cookies_.deleteAll();
-    this.router_.navigateByUrl('https://auth.ia.k.garaza.io/oauth2/sign_out');
+    this.router_.navigateByUrl(
+      'https://keycloak.ia.k.garaza.io/auth/realms/ppoc/protocol/openid-connect/logout?redirect_uri=https%3A%2F%2Fauth.ia.k.garaza.io%2Foauth2%2Fsign_in',
+    );
   }
 
   /**

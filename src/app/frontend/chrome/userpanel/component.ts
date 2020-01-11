@@ -47,6 +47,12 @@ export class UserPanelComponent implements OnInit {
     return this.loginStatus && !this.loginStatus.headerPresent && this.loginStatus.tokenPresent;
   }
 
+  isLoggedInWithAuthHeader(): boolean {
+    return (
+      this.loginStatus && this.loginStatus.headerPresent && !this.loginStatus.impersonationPresent
+    );
+  }
+
   isAuthEnabled(): boolean {
     return this.loginStatus ? this.loginStatus.httpsMode : false;
   }
@@ -55,7 +61,7 @@ export class UserPanelComponent implements OnInit {
     this.authService_.logout();
   }
 
-  logoutCustom(): void {
+  logoutWithAuthHeader(): void {
     this.authService_.logoutCustom();
   }
 }
