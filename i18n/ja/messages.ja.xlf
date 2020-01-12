@@ -2622,9 +2622,9 @@
           <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7003098da97db80a0761fe9fdadb2f0349eb462c" datatype="html">
-        <source>Logged in with auth header</source>
-        <target>認証ヘッダーでログイン</target>
+      <trans-unit id="f81e5637dda2cdd155195ce8c7c790406c581d52" datatype="html">
+        <source>Logged in with auth header<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>Logout<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/></source>
+        <target state="new">Logged in with auth header<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>Logout<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">../src/app/frontend/chrome/userpanel/template.html</context>
           <context context-type="linenumber">22</context>
